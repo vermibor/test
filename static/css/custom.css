@@ -1,0 +1,57 @@
+
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b30000;
+}
+
+a {
+    color: #ff3333;
+}
+
+a:hover {
+    color: #e60000;
+}
+
+.navbar-default {
+    background-color: #330000;
+    border-color: #330000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ff3333;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e60000;
+}
+
+.panel-default > .panel-heading {
+    color: #e0e0e0;
+    background-color: #330000;
+    border-color: #330000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #800000;
+    border-color: #800000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #660000;
+    border-color: #660000;
+}
+
+.text-primary {
+    color: #ff3333;
+}
+

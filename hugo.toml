@@ -1,4 +1,46 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://test.org"
+languageCode = "en-us"
+title = "Vampire & Horror Enthusiasts"
 theme = "hugo-universal-theme"
+
+[params]
+  defaultDescription = "A dark realm for vampire and horror aficionados."
+  theme_base_url = "https://test.org"
+  logo = "/img/logo.png"
+  favicon = "/img/favicon.ico"
+  copyright = "© 2025 Vampire & Horror Enthusiasts. All rights reserved."
+  compressHTML = true
+
+
+[params.sidebar]
+  css = "dark"
+
+[params.carousel]
+  enable = true
+  images = [
+    {src = "/img/carousel/vampire-castle.jpg", alt = "Vampire Castle"},
+    {src = "/img/carousel/horror-forest.jpg", alt = "Horror Forest"},
+    {src = "/img/carousel/bloody-moon.jpg", alt = "Bloody Moon"}
+  ]
+
+[menu]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Favorite Movies"
+  url = "/movies/"
+  weight = 2
+
+[[menu.main]]
+  name = "Games"
+  url = "/games/"
+  weight = 3
+
+[[menu.main]]
+  name = "Join the Club"
+  url = "/club/"
+  weight = 4
